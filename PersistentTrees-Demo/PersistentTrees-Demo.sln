@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentIndexedTrees", "PersistentIndexedTrees\PersistentIndexedTrees.csproj", "{ADF017C0-FA2E-4998-8E13-512C881CBC3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentTree", "ComponentTree\ComponentTree.csproj", "{A02064B3-186F-445E-B8EA-26E27F1D3BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries-LessThanX", "Queries-LessThanX\Queries-LessThanX.csproj", "{739F9B51-6080-409C-AB27-686364C665B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentIndexedTrees.Tests", "PersistentIndexedTrees.Tests\PersistentIndexedTrees.Tests.csproj", "{5E8BBE77-528C-440D-B09D-9023306F19EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E8BBE77-528C-440D-B09D-9023306F19EF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E8BBE77-528C-440D-B09D-9023306F19EF}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E8BBE77-528C-440D-B09D-9023306F19EF}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E8BBE77-528C-440D-B09D-9023306F19EF}.Release|x86.Build.0 = Release|Any CPU
+		{739F9B51-6080-409C-AB27-686364C665B4}.Debug|x86.ActiveCfg = Debug|x86
+		{739F9B51-6080-409C-AB27-686364C665B4}.Debug|x86.Build.0 = Debug|x86
+		{739F9B51-6080-409C-AB27-686364C665B4}.Release|x86.ActiveCfg = Release|x86
+		{739F9B51-6080-409C-AB27-686364C665B4}.Release|x86.Build.0 = Release|x86
+		{A02064B3-186F-445E-B8EA-26E27F1D3BC5}.Debug|x86.ActiveCfg = Debug|x86
+		{A02064B3-186F-445E-B8EA-26E27F1D3BC5}.Debug|x86.Build.0 = Debug|x86
+		{A02064B3-186F-445E-B8EA-26E27F1D3BC5}.Release|x86.ActiveCfg = Release|x86
+		{A02064B3-186F-445E-B8EA-26E27F1D3BC5}.Release|x86.Build.0 = Release|x86
+		{ADF017C0-FA2E-4998-8E13-512C881CBC3A}.Debug|x86.ActiveCfg = Debug|x86
+		{ADF017C0-FA2E-4998-8E13-512C881CBC3A}.Debug|x86.Build.0 = Debug|x86
+		{ADF017C0-FA2E-4998-8E13-512C881CBC3A}.Release|x86.ActiveCfg = Release|x86
+		{ADF017C0-FA2E-4998-8E13-512C881CBC3A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

@@ -1,8 +1,9 @@
+﻿
 // http://codeforces.com/gym/100513/problem/C
 
 using System;
 using System.Collections.Generic;
-using DataStructures.PersistentIndexedTree;
+using PersistentIndexedTree;
 
 namespace ComponentTree
 {
@@ -53,7 +54,7 @@ namespace ComponentTree
 			var roots = new PersistentIndexedTree<string>[componentCount + 1];
 			roots[0] = new PersistentIndexedTree<string>(levels, ((a, b) => null), null);
 
-			dfs(roots, 0, adjList, properties);
+			Dfs(roots, 0, adjList, properties);
 
 			int queryCount = int.Parse(Console.ReadLine());
 			for(int i = 0; i < queryCount; ++i)
@@ -74,7 +75,7 @@ namespace ComponentTree
 			}
 		}
 
-		static void dfs(PersistentIndexedTree<string>[] roots, int node, List<int>[] adjList, List<KeyValuePair<int, string>>[] properties)
+		static void Dfs(PersistentIndexedTree<string>[] roots, int node, List<int>[] adjList, List<KeyValuePair<int, string>>[] properties)
 		{
 			foreach(var pair in properties[node])
 			{
@@ -83,7 +84,7 @@ namespace ComponentTree
 			foreach(var to in adjList[node])
 			{
 				roots[to] = roots[node];
-				dfs(roots, to, adjList, properties);
+				Dfs(roots, to, adjList, properties);
 			}
 		}
 	}

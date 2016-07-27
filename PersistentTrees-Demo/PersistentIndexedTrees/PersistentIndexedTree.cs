@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace DataStructures.PersistentIndexedTree
+namespace PersistentIndexedTree
 {
 	public class PersistentIndexedTree<T>
 	{
@@ -120,7 +120,7 @@ namespace DataStructures.PersistentIndexedTree
 
 		public T Query(long from, long to)
 		{
-			// TODO: validations
+			// TODO: validations for interval
 
 			if(from == 0L && to == (1L << this.level))
 			{

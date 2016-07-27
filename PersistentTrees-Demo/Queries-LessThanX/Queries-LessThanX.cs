@@ -1,9 +1,9 @@
-// An array of numbers is given. You have to process queries. Each query must answer how many numbers in a interval [ L, R ) are < X.
+﻿// An array of numbers is given. You have to process queries. Each query must answer how many numbers in a interval [ L, R ) are < X.
 
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using DataStructures.PersistentIndexedTree;
+using PersistentIndexedTree;
 
 namespace Queries
 {
